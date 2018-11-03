@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+
+body {
+  font-family: arial;
+  font-size: 120%;
+	margin: 2vh;
+	padding: 0;
+}
+
+label {
+    margin-bottom: 0;
+}
+
+section{
+  margin: 2vh 0;
+  padding: 0 2vh;
+}
+
+.wrapper {
+     display: grid;
+     grid-gap: 10px;
+     grid-template-columns: auto auto auto;
+ }
+
+ .burger img{
+   height: auto;
+   width: 100%;
+ }
+
+ .a{
+   grid-column: 1;
+ }
+
+ .b{
+   grid-column: 2;
+ }
+
+ .c{
+   grid-column: 3;
+ }
+
+.header{
+  padding: 0;
+  height: 40vh;
+  overflow: hidden;
+  font-size: 150%;
+}
+
+.header h1{
+  position: absolute;
+  margin-top: -25vh;
+  text-align: center;
+  width: 100%;
+}
+
+.header img{
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+}
+
+.burgers{
+  font-family: 'Poor Story';
+  background-color: #CD853F;
+  border: black solid medium;
+}
+
+.orderinfo{
+	border: black dashed medium;
+}
+
+.payment{
+	margin-top: 3vh;
+}
+
+.gender{
+	margin-top: 3vh;
+}
+
+.deliveryinfo{
+	padding-bottom: 2vh;
+}
+
+.footer{
+	border-top: 1px solid grey;
+}
+
+.placeorder{
+	margin: 2vh 0;
+}
+
+.placeorder button{
+  cursor: pointer;
+	padding: 1vh 1vh;
+}
+
+#allergy{
+  font-weight: bold;
+}
