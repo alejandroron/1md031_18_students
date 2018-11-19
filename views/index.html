@@ -89,8 +89,8 @@
 </div>
 </section>
 
-<div id="mapfinalaaaa">
-  <h1> Click in the map! </h1>
+<div id="ordermap">
+  <h3> Click in the map to select location </h3>
   <a href="/dispatcher" target="_blank">Open dispatcher in new window</a>.
   <div class="view-box">
     <div id="dots" v-on:click="displayOrder">
@@ -109,7 +109,6 @@
 
 <section id="ordersummary"  class="orderinfo" v-if = "flag">
   <div>
-    <!-- <h3 v-if="summary != '' ">{{ summary }}</h3> -->
     <ul>
       <li>{{ burgers }}</li>
       <li>{{ name }}</li>
